@@ -158,20 +158,6 @@ Incluye pausas para garantizar estabilidad mecánica.
 
 ---
 
-# Ejecución principal
-
-El bloque `__main__` realiza:
-
-1. `clearError()`
-2. `disableRobot()`
-3. `posicionHome()`
-4. `secuenciaMovimientos()`
-5. Imprime la lista de ángulos (`getPositions()`).
-6. Imprime estado de herramienta (`getToolStatus()`).
-7. Cierra la conexión.
-
----
-
 # Ejemplo básico de uso
 
 ```python

@@ -113,7 +113,7 @@ Imprime el estado en consola.
 
 ---
 
-# 🤖 Funciones de movimiento
+# Funciones de movimiento
 
 Estas funciones utilizan dos poses:
 

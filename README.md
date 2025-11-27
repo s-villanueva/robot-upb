@@ -161,9 +161,10 @@ Incluye pausas para garantizar estabilidad mecánica.
 # Ejemplo básico de uso
 
 ```python
-from robotScript import connect, sendData, posicionHome
+from robotScript import connect, sendData, posicionHome, enableRobot
 
 robot = connect()
 sendData(robot, "PowerOn()")
+enableRobot()
 posicionHome()
 robot.close()
